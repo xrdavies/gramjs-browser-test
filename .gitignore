@@ -1,3 +1,112 @@
 node_modules/
-gramjs-source/
-session-info.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Service-specific environment files
+.env.backend
+.env.telegram-bot
+.env.admin-panel
+.env.webpage
+.env.mock-external
+
+# Logs
+logs/
+*.log
+lerna-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Database
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+data/
+prisma/migrations/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Cache
+.cache/
+.parcel-cache/
+.nuxt/
+.next/
+.docusaurus/
+
+# Docker
+docker-compose.override.yml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Vite
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Vue
+.vue/
+
+# Redis
+dump.rdb
+
+# Prisma
+prisma/dev.db*
+
+# Secrets
+*.pem
+*.key
+*.cert
+credentials.json
+service-account.json
+
+# Build artifacts
+*.tgz
+
+detective-admin-panel/
+detective-bu-server/
+detective-tg-bot/
+detective-webpage/
+test-page/
+.claude
